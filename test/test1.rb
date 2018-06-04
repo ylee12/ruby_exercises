@@ -1,1 +1,1 @@
-puts "I love ruby"
+puts "I love ruby and Java now."
