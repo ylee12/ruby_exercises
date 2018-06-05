@@ -1,0 +1,5 @@
+# diff with previous commit
+ git diff HEAD^
+
+#diff between two commits (from older commit to newer commit)
+git diff ae8187c..f044560 
