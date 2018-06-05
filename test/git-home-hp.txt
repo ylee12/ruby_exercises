@@ -6,3 +6,15 @@ git diff ae8187c..f044560
 
 #modify committed message
 git commit --amend
+
+#To Undo
+
+#discard changes in local working folder(s)
+git checkout --  test/test1.rb test/test2.rb
+
+#Discard all the current local changes and reset to the latest commit
+git reset HEAD --hard
+
+# Reset to the previous commit 
+git reset head^ --hard
+
