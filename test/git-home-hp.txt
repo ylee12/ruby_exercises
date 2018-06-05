@@ -3,3 +3,6 @@
 
 #diff between two commits (from older commit to newer commit)
 git diff ae8187c..f044560 
+
+#modify committed message
+git commit --amend
